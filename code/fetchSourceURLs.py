@@ -17,7 +17,9 @@ def representsInt(s):
 
 def urlIsTutorialUrl(url):
     url = url.replace('https://','').split('/')
-    return len(url) == 3 and representsInt(url[1])
+    return len(url) == 3 \
+            and representsInt(url[1]) \
+            and url[0] == 'www.raywenderlich.com'
 
 
 for url in topURLs:

@@ -204,7 +204,6 @@ https://www.raywenderlich.com/108871/install-ios-9-beta-watchos-2
 https://www.raywenderlich.com/127936/submit-an-app-part-1
 https://www.raywenderlich.com/127939/submit-an-app-part-2
 https://www.raywenderlich.com/171242/ios-11-book-launch
-/104320/open-call-for-writers-and-editors
 https://www.raywenderlich.com/110170/mac-os-x-development-tutorial-for-beginners-part-1-intro-to-xcode
 https://www.raywenderlich.com/82046/introduction-to-os-x-tutorial-core-controls-and-swift-part-1
 https://www.raywenderlich.com/141297/cocoa-bindings-macos
@@ -234,7 +233,6 @@ https://www.raywenderlich.com/147118/use-nstouchbar-macos
 https://www.raywenderlich.com/157986/filemanager-class-tutorial-macos-getting-started-file-system
 https://www.raywenderlich.com/161968/porting-your-ios-app-to-macos
 https://www.raywenderlich.com/171242/ios-11-book-launch
-/104320/open-call-for-writers-and-editors
 https://www.raywenderlich.com/120177/beginning-android-development-tutorial-installing-android-studio
 https://www.raywenderlich.com/110452/java-for-android
 https://www.raywenderlich.com/119175/java-for-android-cheat-sheet-and-quick-reference
@@ -267,7 +265,6 @@ https://www.raywenderlich.com/158580/augmented-reality-android-googles-face-api
 https://www.raywenderlich.com/170233/reactive-programming-rxandroid-kotlin-introduction
 https://www.raywenderlich.com/170520/getting-started-arcore-kotlin
 https://www.raywenderlich.com/171242/ios-11-book-launch
-/104320/open-call-for-writers-and-editors
 https://www.raywenderlich.com/135533/join-swift-algorithm-club
 https://www.raywenderlich.com/138190/swift-algorithm-club-swift-tree-data-structure
 https://www.raywenderlich.com/139410/swift-algorithm-club-swift-trie-data-structure
@@ -316,7 +313,6 @@ https://www.raywenderlich.com/158205/rxswift-transforming-operators
 https://www.raywenderlich.com/158364/rxswift-transforming-operators-practice
 https://www.raywenderlich.com/160728/object-oriented-programming-swift
 https://www.raywenderlich.com/171242/ios-11-book-launch
-/104320/open-call-for-writers-and-editors
 https://www.raywenderlich.com/125046/card-game-mechanics-in-sprite-kit-with-swift
 https://www.raywenderlich.com/129895/sprite-kit-inverse-kinematics-swift-2
 https://www.raywenderlich.com/137216/whats-new-spritekit-ios-10-look-tile-maps
@@ -351,7 +347,6 @@ https://www.raywenderlich.com/138712/make-game-like-can-knockdown
 https://www.raywenderlich.com/154915/make-game-like-stack
 https://www.raywenderlich.com/172736/magicavoxel-3d-art-tutorial
 https://www.raywenderlich.com/171242/ios-11-book-launch
-/104320/open-call-for-writers-and-editors
 https://www.raywenderlich.com/83172/unity-cheat-sheet-reference
 https://www.raywenderlich.com/113049/introduction-unity-particle-systems
 https://www.raywenderlich.com/116652/introduction-unity-animation-system
@@ -425,4 +420,3 @@ https://www.raywenderlich.com/160601/beginning-c-unity-part-29-interfaces
 https://www.raywenderlich.com/162269/beginning-c-unity-part-30-polymorphism
 https://www.raywenderlich.com/163587/screencast-beginning-c-unity-part-31-conclusion
 https://www.raywenderlich.com/171242/ios-11-book-launch
-/104320/open-call-for-writers-and-editors
