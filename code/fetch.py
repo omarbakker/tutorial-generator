@@ -42,7 +42,7 @@ print('Output in data/tutorialURLs.txt')
 with open('data/tutorialUrls.txt') as tutorialsFile:
     urls = tutorialsFile.readlines()
 
-    with open('dataset.txt', 'w') as dataset:
+    with open('data/dataset.txt', 'w') as dataset:
         i = 0
         for url in urls:
             result = get(url)
@@ -61,3 +61,4 @@ with open('data/tutorialUrls.txt') as tutorialsFile:
 
             if i % 5 == 0 or i == len(urls):
                 print('Finished adding ', i, ' tutorials to dataset')
+    print("Finished creating dataset, output in data/dataset.txt")
