@@ -25,6 +25,8 @@ if __name__ == '__main__':
 
     # get the data, use 10% for validation!
     encodings, mapping, reverseMapping = encodeCharacters(dataset)
+    import pdb; pdb.set_trace()
+    
     valSplit = (len(encodings)*9)//10
     Xval = encodings[valSplit:]
     Xtrn = encodings[:valSplit]

@@ -24,6 +24,11 @@ def encodeCharacters(text, COUNT_THRESHOLD=20):
     for i in range(len(encodings)):
         if encodings[i] in reverseMapping:
             encodings[i] = reverseMapping.get(encodings[i])
+
+    with open('data/reverseMapping.txt', 'w') as txtfile:
+        txtfile.write("\n".join([str(key) + ':' + str(item) for key, item in reverseMapping.items()]))
+    with open('data/mapping.txt', 'w') as txtfile:
+        txtfile.write("\n".join([str(key) + ':' + str(item) for key, item in mapping.items()]))
     return encodings, mapping, reverseMapping
 
 
