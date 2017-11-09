@@ -9,7 +9,8 @@ python code/learn.py
 ```
 TODO:
 * Perform full training procedure on AWS
-* Upload learned model to
+* Upload learned model to repo
+* Finish implementing generate.py to generate a pdf tutorial
 
 ## Project Files
 * [fetch.py](code/fetch.py) <br/> Fetches all the tutorials from raywenderlich.com roughly 420 tutorials. Mainly keeping only the 'p', 'h2', and 'pre' html tags, and palcing them all into one large text file (9 MB)
