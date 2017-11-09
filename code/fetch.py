@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 from bs4 import SoupStrainer
 from requests import get
+from random import shuffle
 
 print('Fetching tutorial urls')
 temp = 'https://www.raywenderlich.com/category/'
@@ -33,6 +34,7 @@ for url in topURLs:
         if not urlIsTutorialUrl(url): continue
         tutorialUrls.append(atag['href'])
 
+shuffle(tutorialUrls)
 with open('data/tutorialURLs.txt', 'w') as urlFile:
     urlFile.write('\n'.join(tutorialUrls))
 
