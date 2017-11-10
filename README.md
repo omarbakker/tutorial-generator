@@ -1,4 +1,4 @@
-# Tutrorial Generator
+# Tutorial Generator
 When you run out of programming tutorials to learn from. Use this clever RNN to generate more tutorials. They won't make any sense but that's beside the point.
 
 ## Training
