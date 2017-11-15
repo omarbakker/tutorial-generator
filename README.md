@@ -2,7 +2,7 @@
 When you run out of programming tutorials to learn from. Use this clever RNN to generate more tutorials. They won't make any sense but that's beside the point.
 
 ## Training
-In learn.py, we train 3 layers of gated recurrent units of size 512 for each GRU Unit. The training is done on the entire turorial content of raywenderlich.com. To restart the training, simply run the fetch script, followed by the learn script:
+In learn.py, we train 3 layers of gated recurrent units of size 512 for each GRU Unit. The training is done on the entire tutorial content of raywenderlich.com. To restart the training, simply run the fetch script, followed by the learn script:
 ```BASH
 python code/fetch.py
 python code/learn.py
