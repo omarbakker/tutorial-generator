@@ -11,7 +11,7 @@ SEQ_LEN = 30
 BATCH_SIZE = 200
 INTERNAL_SIZE = 512
 N_LAYERS = 3
-α = 0.001  # fixed learning rate
+alpha = 0.001  # fixed learning rate
 dropout_pkeep = 0.8    # some dropout
 
 
@@ -25,7 +25,7 @@ if __name__ == '__main__':
 
     # get the data, use 10% for validation!
     encodings, mapping, reverseMapping = encodeCharacters(dataset)
-    
+
     valSplit = (len(encodings)*9)//10
     Xval = encodings[valSplit:]
     Xtrn = encodings[:valSplit]
@@ -103,7 +103,7 @@ if __name__ == '__main__':
             rnn_minibatch_sequencer(Xtrn, BATCH_SIZE, SEQ_LEN, nb_epochs=10):
 
         # train on one minibatch
-        feed_dict = {X: x, Y_: y_, Hin: istate, lr: α,
+        feed_dict = {X: x, Y_: y_, Hin: istate, lr: alpha,
                      pkeep: dropout_pkeep, batchsize: BATCH_SIZE}
         _, y, ostate = sess.run([train_step, Y, H], feed_dict=feed_dict)
 
